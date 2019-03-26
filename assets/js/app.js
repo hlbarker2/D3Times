@@ -85,6 +85,7 @@ d3.csv("./assets/data/data.csv").then(function(censusData) {
         .attr("dy", 3)
         .attr("font-size", "10px");
 
+    // Add axes
     var povertyText = chartGroup
         .append("text")
         .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
